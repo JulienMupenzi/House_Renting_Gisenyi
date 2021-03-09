@@ -1,0 +1,84 @@
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 38vh;
+}
+
+.social-links .social {
+    display: block;
+    text-align: right;
+}
+
+.social-links .nav-link {
+    padding: 0;
+    font-size: 1.7rem;
+}
+
+.site-blocks-cover.overlay:before {
+    background: rgba(184, 178, 166, 0.3);
+}
+
+@media(max-width:575px) {
+    .social-links {
+        z-index: 100;
+    }
+}
+
+.text-uppercase {
+    text-transform: capitalize;
+}
+
+.nav-link.login-btn {
+    padding: 5px 15px !important;
+}
+
+.home-btn {
+    z-index: 10;
+    margin-top: 2rem;
+}
+
+.home-btn .btn-facebook {
+    padding: 10px 18px;
+    color: #2196F3;
+    background-color: #fff;
+    border-color: #2196F3;
+    margin-left: .1rem;
+}
+
+.home-btn .btn-facebook:hover {
+    background-color: #2196F3;
+    color: #fff;
+    border-color: #2196F3;
+}
+
+#contact-section {
+    padding: 3em 0;
+}
+
+.describe-1,
+.describe-2 {
+    list-style-type: none;
+}
+
+ul.describe-1 li .icon-square2,
+ul.describe-2 li .icon-square2 {
+    vertical-align: middle;
+    padding: 0 7px 0 0;
+}
+
+.icon-square2 svg {
+    fill: #b7b7b7;
+    height: 20px;
+    width: 20px;
+}
+
+.bg-light {
+    background-color: #e8e3f7 !important;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 1rem !important;
+}
